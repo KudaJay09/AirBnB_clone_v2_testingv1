@@ -6,7 +6,7 @@ Starts a flask application
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/', srict_slashes=False)
+@app.route('/', strict_slashes=False)
 def index():
     """returns Hello HBNB"""
     return 'Hello HBNB!'
